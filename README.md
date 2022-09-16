@@ -1,24 +1,17 @@
-# ui
+## Install
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+```shell
+npm i UI -S
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Quick Start
 
-### Lints and fixes files
-```
-npm run lint
-```
+```javascript
+// in main.js
+import lzUI from 'UI';
+import 'UI/dist/ui.css';
+Vue.use(lzUI);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// in .vue
+<lzButton></lzButton>;
+```
